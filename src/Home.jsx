@@ -10,10 +10,10 @@ export default class Home extends PureComponent{
     }
     render() {
         return (<DatePicker
-            isGregorian={false}
-            value={this.state.value}
-            onChange={value => this.setState({ value })}
-        />
+                isGregorian={false}
+                value={this.state.value}
+                onChange={value => this.setState({ value })}
+            />
         )
     }
 }
